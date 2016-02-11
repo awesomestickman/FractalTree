@@ -16,6 +16,10 @@ public void draw()
 	line(320,480,320,380);   
 	drawBranches(320,380,100,3*Math.PI/2,(float)9.5);  //will add later 
 } 
+public void mousePressed(){
+
+redraw();
+}
 public void drawBranches(int x,int y, double branchLength, double angle,float thick) 
 {   
 	//your code here    
